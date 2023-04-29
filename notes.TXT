@@ -1,0 +1,45 @@
+Theme: 
+	store account passwords of different websites
+  (store email/nickname + password)
+
+
+GUI:
+	console
+
+Makefile: TODO
+
+Store data in the database(SQLite, ...), using sql libraries in C.
+
+Need to be somewhat 50% - C, 50% - SQL.
+
+TODO: "Press enter to continue..."
+To exit the program type: QUIT
+To return to the start menu type: START
+
+
+Your websites:
+  1. Google.com
+  2. GMail.com
+  3. YouTube.com
+  ...
+
+To add a website type: add
+   //Previous page(<), Next page(>) or 
+Search website by name, or enter website's id:
+[add/website_name/website_id]: 
+(do this until there won't be exactly one website after the search)
+
+Google.com: 
+  1. 
+     username: 
+     email: 
+     password: 
+  2. 
+     username: 
+     email: 
+     password: 
+
+
+Remove account.
+ [account_id]: 
+ Sure? [y/n]:
